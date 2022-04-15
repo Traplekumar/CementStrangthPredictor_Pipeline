@@ -4,9 +4,8 @@ Solve the problem of poor quality of Cement Mixures.
 This repository contains code and link to WebApp for 
 predicting Cement Strength.
 
-![image](https://user-images.githubusercontent.com/64093713/163631826-68a0c0ea-47ab-4e92-b78d-d0233c5dfa22.png)
-![image](https://user-images.githubusercontent.com/64093713/163631881-635a3391-1989-40e2-83f7-0231dea9ee8d.png)
-
+![Home Page](https://user-images.githubusercontent.com/64093713/163632720-8f0145c1-fd38-4085-8029-ae957523a7d8.png)
+![Predict Page](https://user-images.githubusercontent.com/64093713/163632712-a632c512-adec-4049-89a6-5b208edbbc42.png)
 
 ## Deployment
 Model has been deployed on Heroku, using Rest API and 
