@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model Training</title>
+    <link type="text/css" rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+        <div class="nav-bar">
+            <span>CementPredictor</span>
+            <div class="contact">
+                <a href="https://www.linkedin.com/in/traple-kumar-07967a196" target="_blank">
+                    <div class="linked">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.3368 15.3371H12.6698V11.1603C12.6698 10.1643 12.652 8.8822 11.2827 8.8822C9.8936 8.8822 9.68105 9.9674 9.68105 11.0878V15.3368H7.01409V6.74772H9.57438V7.92152H9.61024C9.86647 7.4834 10.2367 7.12299 10.6816 6.87865C11.1264 6.63432 11.6292 6.51522 12.1364 6.53404C14.8396 6.53404 15.338 8.3121 15.338 10.6252L15.3368 15.3371V15.3371ZM4.00472 5.57371C3.14993 5.57386 2.45686 4.881 2.45672 4.02621C2.45658 3.17142 3.14937 2.47835 4.00416 2.47821C4.85895 2.478 5.55202 3.17086 5.55216 4.02564C5.55223 4.43613 5.38924 4.82984 5.09904 5.12015C4.80884 5.41047 4.41521 5.57362 4.00472 5.57371V5.57371ZM5.33827 15.3372H2.66843V6.74772H5.3382V15.3371L5.33827 15.3372ZM16.6665 0.00131005H1.32827C0.603351 -0.00684619 0.00885938 0.573865 0 1.29879V16.7009C0.00857813 17.4262 0.603 18.0075 1.3282 17.9999H16.6665C17.3932 18.0089 17.9899 17.4276 18 16.7009V1.29759C17.9897 0.571263 17.3929 -0.00937744 16.6665 0.000114742" fill="white"/>
+</svg>
+                        Contact Us
+                    </div>
+                </a>
+                <a href="https://github.com/Traplekumar?tab=repositories" target="_blank">
+                    <div class="git">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_103_328)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6077 0.328369C5.21272 0.328369 0.843018 4.69807 0.843018 10.0931C0.843018 14.414 3.63816 18.0635 7.51964 19.3573C8.00787 19.4428 8.19096 19.1498 8.19096 18.8935C8.19096 18.6616 8.17875 17.8926 8.17875 17.0748C5.72537 17.5265 5.09066 16.4768 4.89537 15.9275C4.78552 15.6468 4.30949 14.7801 3.89449 14.5482C3.55272 14.3651 3.06449 13.9135 3.88228 13.9013C4.65125 13.8891 5.20052 14.6093 5.38361 14.9022C6.26243 16.3791 7.66611 15.9641 8.22758 15.7078C8.31302 15.0731 8.56934 14.6459 8.85008 14.4018C6.67743 14.1576 4.40714 13.3154 4.40714 9.58043C4.40714 8.51852 4.78552 7.63969 5.40802 6.95616C5.31037 6.71205 4.96861 5.71116 5.50566 4.36852C5.50566 4.36852 6.32346 4.11219 8.19096 5.3694C8.97213 5.14969 9.80213 5.03984 10.6321 5.03984C11.4621 5.03984 12.2921 5.14969 13.0733 5.3694C14.9408 4.09999 15.7586 4.36852 15.7586 4.36852C16.2957 5.71116 15.9539 6.71205 15.8563 6.95616C16.4788 7.63969 16.8571 8.50631 16.8571 9.58043C16.8571 13.3276 14.5746 14.1576 12.402 14.4018C12.756 14.7069 13.0611 15.2928 13.0611 16.2082C13.0611 17.5142 13.0489 18.564 13.0489 18.8935C13.0489 19.1498 13.232 19.455 13.7202 19.3573C15.6587 18.7029 17.3431 17.457 18.5364 15.7951C19.7297 14.1333 20.3718 12.139 20.3724 10.0931C20.3724 4.69807 16.0027 0.328369 10.6077 0.328369Z" fill="white"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_103_328">
+                        <rect width="19.5294" height="19.5294" fill="white" transform="translate(0.843018 0.328369)"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                        Support Us!
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <form class="trainingBox" method="POST" >
+                <br>
+                <span class="head-text1">
+                    <h1>MODEL TRAINING</h1>
+                    <h2>Cement Strength Prediction</h2>
+                </span>
+                <br>
+                <span class="train-text1"><h3>Use <span>Pre-Trained</span> Model, to make predictions</h3></span>
+                <br>
+                <div>
+                    <input class="pretrain-btn1 btn" type="submit" name="train" value="Pre Trained">
+                </div>
+
+                <br><br>
+
+                <h3 class="train-text1">or</h3>
+                <div class="train-text2">
+                    Collaborate, Contribute or Train on custom dataset here
+                    <br><br>
+                    <a href="https://github.com/Traplekumar?tab=repositories" target="_blank">
+                        <div class="train-btn1 btn">
+                             Github
+                        </div>
+                    </a>
+                </div>
+            </form>
+        </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+Flask==2.1.1
+Flask_Cors==3.0.10
+Flask_MonitoringDashboard==3.1.1
+kneed==0.7.0
+matplotlib==3.5.1
+numpy==1.21.5
+pandas==1.4.1
+scikit_learn==1.0.2
+Werkzeug==2.1.0
+gunicorn==20.1.0

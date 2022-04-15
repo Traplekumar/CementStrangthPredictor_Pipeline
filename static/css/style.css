@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../Images/cement_bg_compressed.jpg");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    font-color: #2C2C2C;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100vw;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.nav-bar span{
+    margin: 0 0 0 100px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2C2C2C;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25vw;
+    margin: 0 100px 0 0;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.linked {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 130px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #0050EB;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0050EB;
+    font-weight: 600;
+}
+
+.linked svg {
+    padding: 0 12px 0 0;
+}
+
+.git {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 30px;
+    width: 130px;
+    background-color: #2C2C2C;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:  #2C2C2C;
+}
+
+.git svg{
+    padding: 0 15px 0 0;
+}
+
+.head-text1 h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.head-text1 h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+input {
+    height: 7vh;
+    width: 13vw;
+    border-radius: 8px;
+}
+
+.btn {
+    border-radius: 8px;
+    border: black;
+    height: 35px;
+    width: 125px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*PREDICTION PART START FROM HERE*/
+.prediction-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : 5% 0 0 0;
+    height: 80vh;
+    width: 85vw;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 50%;
+}
+
+.label1 {
+    height: 200px;
+    width: 380px;
+}
+
+.label2 {
+    height: 200px;
+    width: 380px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px 0;
+    font-weight: 600;
+}
+
+label input {
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+}
+
+.btn2 {
+    display: flex;
+    justify-content : flex-end;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.btn2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8%;
+}
+
+.scroll {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.pred-btn1 {
+    margin-right: 10%;
+    height: 35px;
+    width: 150px;
+    background-color: #0050EB;
+    font-weight: 600;
+    color: white;
+}
+
+.scroll-btn {
+    position: relative;
+    background-color: red;
+    height: 35px;
+    width: 150px;
+    z-index: 10;
+}
+
+.prediction-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 85vw;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.prediction-text{
+    padding-top: 15%;
+    font-weight: 600;
+    font-size: 32px;
+}
+.predictionValue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: #0050EB;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+/* HERE STARTS TRAINING PAGE */
+.trainingBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : 5% 0 0 0;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    height: 80vh;
+    width: 85vw;
+}
+
+.train-text1 h3{
+    font-weight: 600;
+}
+
+.train-text1 span{
+    color: #0050EB;
+}
+
+.pretrain-btn1 {
+    cursor: pointer;
+    background-color: #0050EB;
+    color: white;
+    font-weight: bold;
+    z-index:0;
+}
+
+.train-text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.train-btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /*background-color: white;*/
+    color: #0050EB;
+    font-weight: 600;
+    height: 23px;
+    width: 109px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:  #0050EB;
+
+}
+
+.train-text2 a {
+    text-decoration: none;
+}
+
