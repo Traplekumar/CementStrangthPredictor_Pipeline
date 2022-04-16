@@ -41,8 +41,7 @@ To determine the strength of cement mixture.
     2. Perform various data checks, filename, column name & datatype validation.
     3. Creation of SQLite Database containg good data.
     4. Preprocessing the data to, impute missing values, perform Scaling, and One Hot Encoding.
-    5. Perform EDA to check data distribution using KDE plot, 
-       find optimum number of sub-clusters.
+    5. Perform EDA to, find optimum number of sub-clusters.
     6. Train model on each cluster separately and saving them.
     7. Hyper parameter tuning for fine tuning the models.
     8. Export the models via pickle.
