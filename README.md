@@ -13,10 +13,8 @@ Flask framework. Link to Webapp -
 https://cement-strength-predictor.herokuapp.com/
 
 
-## Dataset and EDA
+## Dataset
 The dataset used is: https://drive.google.com/drive/folders/1fIMTz2B5t-8qMkM0bnKlbyYuIoJ9xHSF?usp=sharing
-
-Link to Jupyter Notebook : 
 
 ## Tech Stack
 - Python3
