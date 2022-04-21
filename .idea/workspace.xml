@@ -3,24 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6e6f540-093d-4ae5-8df4-f39dd39b7983" name="Changes" comment="Changes in the HTML file and README file">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/General_Logs/GeneralLogs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/KMeans/KMeans.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/LinearRegression0/LinearRegression0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/LinearRegression2/LinearRegression2.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/RandomForestRegressor0/RandomForestRegressor0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/RandomForestRegressor1/RandomForestRegressor1.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/RandomForestRegressor2/RandomForestRegressor2.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/RandomForestRegressor3/RandomForestRegressor3.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Scalar/Scalar.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training_Archived_Bad_Data/BadData_2022-04-15_205326/cement_strength_08012020_1200.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training_Archived_Bad_Data/BadData_2022-04-15_205326/cement_strength_08012020_120000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training_CSV_From_DB/InputFile.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training_Data_Base/train_db.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training_Preprocessing_Data/K_Means_Elbow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_monitoringdashboard.db" beforeDir="false" afterPath="$PROJECT_DIR$/flask_monitoringdashboard.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

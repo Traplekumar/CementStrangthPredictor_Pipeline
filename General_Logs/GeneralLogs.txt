@@ -1,0 +1,124 @@
+2022-04-21	10:31:58 ---> Log Directory Created Successfully.
+2022-04-21	10:31:58 ---> Successfully created New Good and Bad Raw directories.
+2022-04-21	10:31:58 ---> Training_Archived_Bad_Data directory created.
+2022-04-21	10:31:58 ---> Successfully created Training_Database directory.
+2022-04-21	10:31:58 ---> Successfully created Training_CSV_From_DB directory.
+2022-04-21	10:31:58 ---> Successfully created Training_Preprocessing_Data directory.
+2022-04-21	10:31:58 ---> Successfully created all necessary directories.
+2022-04-21	10:31:58 ---> Started replacing Whitespaces in Columns names.
+2022-04-21	10:31:58 ---> LengthOfDateStampFile:: 8 	 LengthOfTimeStampInFile:: 6 	 NumberOfColumns:: 9
+2022-04-21	10:31:58 ---> Successfully deleted Good and Bad Raw directories before starting Validation.
+2022-04-21	10:31:58 ---> Successfully created New Good and Bad Raw directories.
+2022-04-21	10:31:58 ---> Invalid File name! File moved to Bad_Raw folder :: cement_strength_08012020_1200.csv
+2022-04-21	10:31:58 ---> Valid File name! File moved to Good_Raw folder :: cement_strength_08012020_120000.csv
+2022-04-21	10:31:58 ---> Valid File name! File moved to Good_Raw folder :: cement_strength_08012020_120021.csv
+2022-04-21	10:31:58 ---> Column Length Validation started
+2022-04-21	10:31:58 ---> Invalid number of Columns! File moved to Bad_Raw data folder::cement_strength_08012020_120000.csv
+2022-04-21	10:31:58 ---> Invalid number of Columns! File moved to Bad_Raw data folder::cement_strength_08012020_120021.csv
+2022-04-21	10:31:58 ---> Column Length Validation Completed.
+2022-04-21	10:31:58 ---> Missing whole column values Validation Started.
+2022-04-21	10:31:58 ---> Missing whole column values validation ended.
+2022-04-21	10:31:58 ---> Successfully opened database:: train_db
+2022-04-21	10:31:59 ---> Tables created Successfully.
+2022-04-21	10:31:59 ---> Database closed Successfully:: train_db
+2022-04-21	10:31:59 ---> Successfully opened database:: train_db
+2022-04-21	10:31:59 ---> File loaded successfully in Database.
+2022-04-21	10:31:59 ---> Database closed Successfully:: train_db
+2022-04-21	10:31:59 ---> Training_Archived_Bad_Data directory already present.
+2022-04-21	10:31:59 ---> Bad files moved to archive folder.
+2022-04-21	10:31:59 ---> Bad_Raw Data Folder Deleted Successfully after Archiving data.
+2022-04-21	10:31:59 ---> Successfully deleted Good and Bad Raw directories before starting Validation.
+2022-04-21	10:31:59 ---> Training_CSV_From_DB directory already present.
+2022-04-21	10:31:59 ---> Successfully opened database:: train_db
+2022-04-21	10:31:59 ---> Successfully exported database as CSV file:: InputFile.csv
+2022-04-21	10:31:59 ---> Database closed successfully.
+2022-04-21	10:31:58 ---> Start of Validation on files for Training.
+2022-04-21	10:31:58 ---> Raw Data Validation Completed!!
+2022-04-21	10:31:58 ---> Creating Training_Database and tables on the basis of given schema!!
+2022-04-21	10:31:59 ---> End of validation on training files.
+2022-04-21	10:31:59 ---> Entered the getData method of the fileOperation class.
+2022-04-21	10:31:59 ---> Data Loaded successful. Exited the getData method of fileOperation class.
+2022-04-21	10:31:59 ---> Entered isNullPresent method of the preprocessor class.
+2022-04-21	10:31:59 ---> Entered separate_label_feature method of the preprocessor class.
+2022-04-21	10:31:59 ---> Labels and Features Separation successful. Exited the separate_label_feature method of the preprocessor class.
+2022-04-21	10:31:59 ---> Entered the elbowPlot method of the kMeansClustering class.
+2022-04-21	10:32:00 ---> Optimum number of clusters is: 4. Exited the elbowPlot method of the kMeansClustering class.
+2022-04-21	10:32:00 ---> Successfully created Models directory.
+2022-04-21	10:32:00 ---> Successfully created KMeans folder.
+2022-04-21	10:32:00 ---> Entered saveModel method of the fileOperation class.
+2022-04-21	10:32:00 ---> Successfully save model:: KMeans. Exited the saveModel method of the fileOperation class.
+2022-04-21	10:32:00 ---> Entered the createClusters method of the kMeansClustering.
+2022-04-21	10:32:00 ---> Successfully created 4 clusters. Exited the createClusters method the kMeansClustering class.
+2022-04-21	10:32:00 ---> Entered standardScaling method of the preprocessor class.
+2022-04-21	10:32:00 ---> Label scaling completed.
+2022-04-21	10:32:00 ---> Entered standardScaling for test dataset.
+2022-04-21	10:32:00 ---> StandardScaling of test data completed.
+2022-04-21	10:32:00 ---> Successfully created Scalar folder.
+2022-04-21	10:32:00 ---> Entered saveModel method of the fileOperation class.
+2022-04-21	10:32:00 ---> Successfully save model:: Scalar. Exited the saveModel method of the fileOperation class.
+2022-04-21	10:32:00 ---> Entered LinearRegressor method of the modelFinder class.
+2022-04-21	10:32:02 ---> Linear Regression best params: {'fit_intercept': True}. Exited the LinearRegressor method of the modelFinder class.
+2022-04-21	10:32:02 ---> Entered the RandomForestReg method of the modelFinder class.
+2022-04-21	10:32:08 ---> Random Forest Regressor best params: {'bootstrap': False, 'max_features': 'log2', 'min_samples_split': 4, 'n_estimators': 50}. Exited the RandomForestReg method of the modelFinder class.
+2022-04-21	10:32:00 ---> Entered getBestModel method of the modelFinder class.
+2022-04-21	10:32:08 ---> Random Forest Regressor works better.
+2022-04-21	10:32:08 ---> Successfully created RandomForestRegressor3 folder.
+2022-04-21	10:32:08 ---> Entered saveModel method of the fileOperation class.
+2022-04-21	10:32:08 ---> Successfully save model:: RandomForestRegressor3. Exited the saveModel method of the fileOperation class.
+2022-04-21	10:32:08 ---> Entered standardScaling method of the preprocessor class.
+2022-04-21	10:32:08 ---> Label scaling completed.
+2022-04-21	10:32:08 ---> Entered standardScaling for test dataset.
+2022-04-21	10:32:08 ---> StandardScaling of test data completed.
+2022-04-21	10:32:08 ---> Successfully created Scalar folder.
+2022-04-21	10:32:08 ---> Entered saveModel method of the fileOperation class.
+2022-04-21	10:32:08 ---> Successfully save model:: Scalar. Exited the saveModel method of the fileOperation class.
+2022-04-21	10:32:08 ---> Entered LinearRegressor method of the modelFinder class.
+2022-04-21	10:32:08 ---> Linear Regression best params: {'fit_intercept': True}. Exited the LinearRegressor method of the modelFinder class.
+2022-04-21	10:32:08 ---> Entered the RandomForestReg method of the modelFinder class.
+2022-04-21	10:32:14 ---> Random Forest Regressor best params: {'bootstrap': False, 'max_features': 'log2', 'min_samples_split': 3, 'n_estimators': 50}. Exited the RandomForestReg method of the modelFinder class.
+2022-04-21	10:32:08 ---> Entered getBestModel method of the modelFinder class.
+2022-04-21	10:32:14 ---> Random Forest Regressor works better.
+2022-04-21	10:32:14 ---> Successfully created RandomForestRegressor1 folder.
+2022-04-21	10:32:14 ---> Entered saveModel method of the fileOperation class.
+2022-04-21	10:32:14 ---> Successfully save model:: RandomForestRegressor1. Exited the saveModel method of the fileOperation class.
+2022-04-21	10:32:14 ---> Entered standardScaling method of the preprocessor class.
+2022-04-21	10:32:14 ---> Label scaling completed.
+2022-04-21	10:32:14 ---> Entered standardScaling for test dataset.
+2022-04-21	10:32:14 ---> StandardScaling of test data completed.
+2022-04-21	10:32:14 ---> Successfully created Scalar folder.
+2022-04-21	10:32:14 ---> Entered saveModel method of the fileOperation class.
+2022-04-21	10:32:14 ---> Successfully save model:: Scalar. Exited the saveModel method of the fileOperation class.
+2022-04-21	10:32:14 ---> Entered LinearRegressor method of the modelFinder class.
+2022-04-21	10:32:14 ---> Linear Regression best params: {'fit_intercept': True}. Exited the LinearRegressor method of the modelFinder class.
+2022-04-21	10:32:14 ---> Entered the RandomForestReg method of the modelFinder class.
+2022-04-21	10:32:19 ---> Random Forest Regressor best params: {'bootstrap': False, 'max_features': 'log2', 'min_samples_split': 2, 'n_estimators': 40}. Exited the RandomForestReg method of the modelFinder class.
+2022-04-21	10:32:14 ---> Entered getBestModel method of the modelFinder class.
+2022-04-21	10:32:19 ---> Random Forest Regressor works better.
+2022-04-21	10:32:19 ---> Successfully created RandomForestRegressor2 folder.
+2022-04-21	10:32:19 ---> Entered saveModel method of the fileOperation class.
+2022-04-21	10:32:19 ---> Successfully save model:: RandomForestRegressor2. Exited the saveModel method of the fileOperation class.
+2022-04-21	10:32:19 ---> Entered standardScaling method of the preprocessor class.
+2022-04-21	10:32:19 ---> Label scaling completed.
+2022-04-21	10:32:19 ---> Entered standardScaling for test dataset.
+2022-04-21	10:32:19 ---> StandardScaling of test data completed.
+2022-04-21	10:32:19 ---> Successfully created Scalar folder.
+2022-04-21	10:32:19 ---> Entered saveModel method of the fileOperation class.
+2022-04-21	10:32:19 ---> Successfully save model:: Scalar. Exited the saveModel method of the fileOperation class.
+2022-04-21	10:32:19 ---> Entered LinearRegressor method of the modelFinder class.
+2022-04-21	10:32:19 ---> Linear Regression best params: {'fit_intercept': True}. Exited the LinearRegressor method of the modelFinder class.
+2022-04-21	10:32:19 ---> Entered the RandomForestReg method of the modelFinder class.
+2022-04-21	10:32:25 ---> Random Forest Regressor best params: {'bootstrap': False, 'max_features': 'log2', 'min_samples_split': 5, 'n_estimators': 20}. Exited the RandomForestReg method of the modelFinder class.
+2022-04-21	10:32:19 ---> Entered getBestModel method of the modelFinder class.
+2022-04-21	10:32:25 ---> Random Forest Regressor works better.
+2022-04-21	10:32:25 ---> Successfully created RandomForestRegressor0 folder.
+2022-04-21	10:32:25 ---> Entered saveModel method of the fileOperation class.
+2022-04-21	10:32:25 ---> Successfully save model:: RandomForestRegressor0. Exited the saveModel method of the fileOperation class.
+2022-04-21	10:31:59 ---> Starting model Training.
+2022-04-21	10:32:25 ---> End of model Training.
+2022-04-21	10:33:43 ---> Entered loadModel method of the fileOperation class.
+2022-04-21	10:33:43 ---> Successfully loaded model:: KMeans. Exited the loadModel method of the fileOperation class.
+2022-04-21	10:33:43 ---> Entered loadModel method of the fileOperation class.
+2022-04-21	10:33:43 ---> Successfully loaded model:: Scalar. Exited the loadModel method of the fileOperation class.
+2022-04-21	10:33:43 ---> Entered loadModel method of the fileOperation class.
+2022-04-21	10:33:43 ---> Successfully loaded model:: RandomForestRegressor0. Exited the loadModel method of the fileOperation class.
+2022-04-21	10:33:43 ---> Started Model Prediction.
