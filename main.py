@@ -41,13 +41,13 @@ def pred():
         return render_template('prediction.html', prediction='Enter the specified values.')
 
 if __name__ == '__main__':
-    path = os.path.realpath(os.path.dirname(__file__))
-    path = os.path.join(path, 'Training_Batch_Files')
-    data_validation = trainValidation(path)
-
-    data_validation.necessaryDirectories()
-    data_validation.trainValidation()
-    training = trainModel()
-    training.modelTrain()
-    # app.run(debug=True)
+    # path = os.path.realpath(os.path.dirname(__file__))
+    # path = os.path.join(path, 'Training_Batch_Files')
+    # data_validation = trainValidation(path)
+    #
+    # data_validation.necessaryDirectories()
+    # data_validation.trainValidation()
+    # training = trainModel()
+    # training.modelTrain()
+    app.run(debug=True)
 

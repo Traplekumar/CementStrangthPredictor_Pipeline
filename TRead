@@ -1,0 +1,23 @@
+STEPS INVOLVED -
+01. Logger --> used for writing logs
+02. Directory_Handling --> used for creating necessary directories
+    (It is developed as the project goes on, whenever any new directory is required write code in it.)
+03. RawDataValidation --> validates the raw data coming from client (stored in Training_Batch_Files)
+    Good data is stored in Training_Raw_Files_Validated --> Good_Raw and
+    Bad Data is first stored in Training_Raw_Files_Validated --> Bad_Raw then is stored in Training_Archived_Bad_Data
+04. (OPTIONAL) DataTransformation --> used for changing the column names and adding quotes to categorical data
+05. DataBaseOperation --> used for storing all the Good_Raw data in a database and merging them, then converting
+    them again to csv (~InputFile.csv)
+06. DataLoader --> used for loading the complete csv (~InputFile.csv)
+07. DataPreprocessing --> Preprocessing --> used for preprocessing data like impute missing values, OneHotEnc.,
+    Scaling, null values.
+08. DataPreprocessing --> Clustering --> used for finding optimum number of clusters and creating clusters.
+09. FileOperations --> used for saving & loading and choosing best models,
+10. Training_BestModelFinder --> used for finding the best model out of linear regressor and random forest.
+11. PredictionFromModel --> used for preprocessing prediction data and making prediction.
+
+
+REMOVED TRAINING OF MODELS FROM USER FILE BECAUSE: HEROKU SUPPORTS 30s RESPONSE TIME (INSUFFICIENT FOR TRAINING)
+01. DataBase_Operation --> contain method of saving USER FILE from webapp.
+02. DataLoader --> contain if-else condition for loading UserFile
+02. FileOperations --> contain if-else condition for saving model trained on webapp UserFile.
